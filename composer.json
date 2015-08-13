@@ -63,6 +63,12 @@
             "homepage": "https://github.com/thephpleague/omnipay/graphs/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "http://github.com/david303/omnipay-stripe"
+        }
+    ],
     "require": {
         "omnipay/2checkout": "~2.0",
         "omnipay/authorizenet": "~2.0",
@@ -87,7 +93,7 @@
         "omnipay/pin": "~2.0",
         "omnipay/sagepay": "~2.0",
         "omnipay/securepay": "~2.0",
-        "omnipay/stripe": "~2.0",
+        "omnipay/stripe": "dev-custom",
         "omnipay/targetpay": "~2.0",
         "omnipay/worldpay": "~2.0"
     },
